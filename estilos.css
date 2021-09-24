@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  #navegacion {
+      width: 100%;
+      height: 80px;
+      background-color: rgb(204, 164, 32);
+  }
+  
+  #logo{
+      width: 80px;
+  
+  }
+                         
+  #a_registroDeUsuarios{              /*boton registro de usuario*/
+      float: right;                   /*lleva el boton a la esquina derecha*/
+      margin-top: 30px;               /*separa el boton de la margen superior*/
+      margin-right: 40px;             /*separa el boton de la margen derecha*/
+      text-decoration: none;          /*retira de la letra alguna marca ej:subrayada*/
+      color: darkcyan;              /*color de la letra*/
+      border: 1px solid darkcyan;   /*tamaño del cuadro y color del borde del cuadro*/
+      padding: 3px;                   /*separacion interior entre la letra y el bore del cuadro*/
+  
+  
+  }
+  
+  #a_registroDeUsuarios:hover{        /*cuando el puntero se desplaza por encima del cuadro este cambia de color*/
+      background-color: aliceblue;  /*color de fondo del boton*/
+      color: darkcyan;              /*color de texto*/
+  
+  
+  }
+  
+  #a_registroDeUsuarios:active{             /*al dar clik sobre el boton este cambia de color*/
+      background-color: rgb(0, 89, 255);  /*color de fondo del boton*/
+      color: rgb(2, 2, 27);               /*color de texto*/
+  
+  }
+  
+  #container{
+      height: 1000px;
+  }
+  
+  #container h1{            /*titulo*/
+      text-align: center;   /*lo centra el texto del elemento de borde a borde de la pagina*/
+      margin: 0 auto;       /*centra el elemento*/
+  }
+  
+  #container p{             /*parrafo*/
+      width: 80%;           /*centra el contenedor del texto*/
+      margin: 0 auto;
+      background-color: darkcyan;
+      color: aqua;
+  }
+  
+  #registrar_usuario_form input{
+      display: block;             /*cada campo se posiciona verticalmente*/
+      margin-top: 10px;
+      font-size: 15px;    
+        
+  }
+  
+  #registrar_usuario_form{   /*contenedor de los campos nombre, año, contraeña*/
+      background-color: darkcyan;
+      width: 250px;
+      margin: 0 auto;
+  
+  }
+  
+  #nombre_usuario:hover{                      /*cambia color del cuadro al posicionar el puntero sobre él*/
+      background-color: rgb(204, 164, 32);
+  }
+  
+  
+  #anoNacimiento_usuario:hover{               /*cambia color del cuadro al posicionar el puntero sobre él*/
+      background-color: rgb(204, 164, 32);
+  }
+  
+  #contrasena_usuario:hover{                  /*cambia color del cuadro al posicionar el puntero sobre él*/
+      background-color: rgb(204, 164, 32);
+  }
+  
+  #enviar_registro:hover{
+      background-color: rgb(204, 164, 32);  /*color de fondo del boton*/
+      color: darkcyan;  
+  
+  }
+  
+  #aspecto{
+      float: right;
+      font-size: 15px;
+      margin: 5px;
+  }
+  
+  .dark{
+      background-color: black;
+      color: white;
+  
+  }
+/*desde aca*/
+
+/*
+#navegacion{
+    background-color: rgb(182, 89, 89);
+}
+
+#logo{
+    border-radius: 50%;
+}
+
+#btn_registroDeUsuarios{
+border-radius: 50%;
+background-color: rgb(89, 89, 197);
+
+}
+
+#a_registroDeUsuarios{
+
+}
+
+#registrar_usuario_form{
+    border: #4568DC;
+
+}
+
+#nombre_usuario{
+    font-style: italic;
+
+}
+
+#anoNacimiento_usuario{
+
+}
+#contrasena_usuario{
+
+}
+#enviar_registro{
+
+}*/
